@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Planner</title>
+    <!-- Add your CSS and JavaScript links here -->
+</head>
+<style>
+    /* Reset some default styles */
+    body, h1, h2, p, ul, li {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Basic styling */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    form input[type="text"],
+    form button {
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    form input[type="text"] {
+        width: 70%;
+    }
+
+    /* Style the footer */
+    footer {
+        text-align: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+    }
+</style>
+<body>
+    <header>
+        <h1>Trip Planner</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Plan Trip</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="search-location">
+            <h2>Search for Locations</h2>
+            <form>
+                <input type="text" placeholder="Enter a location...">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        
+        <section class="trip-planner">
+            <h2>Plan Your Trip</h2>
+            <!-- Add trip planning form here -->
+        </section>
+        
+        <section class="user-profile">
+            <h2>Your Profile</h2>
+            <!-- Add user profile information here -->
+        </section>
+        
+        <section class="social-features">
+            <h2>Social Features</h2>
+            <!-- Add social features such as follow, post images, etc. -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Trip Planner</p>
+    </footer>
+</body>
+</html>
